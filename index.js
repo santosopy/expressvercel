@@ -1,8 +1,8 @@
-import fetch from 'node-fetch'
-import express from 'express'
-import cookieParser from 'cookie-parser'
-import cors from 'cors'
-import 'dotenv/config'
+const fetch = require("node-fetch");
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
+const dotenv = require('dotenv')
 
 const app = express(),
     CLIENT_KEY = "aw3j6qwzdg5p2b3d",
